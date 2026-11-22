@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, ".UTF8");
+    setlocale(LC_ALL, "UTF8");
     cout << "Лабораторная работа №8. GIT\n";
     cout << "Вариант №2. Программа конференции\n";
     cout << "Автор: Ваше Имя Фамилия\n\n";
