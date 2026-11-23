@@ -14,8 +14,11 @@ using namespace std;
 #include "file_reader.h"
 #include "constants.h"
 
+using namespace std;
+
 int main()
 {
+<<<<<<< HEAD
 <<<<<<< HEAD
     setlocale(LC_ALL, ".UTF8");
     cout << "������������ ������ �8. GIT\n";
@@ -77,3 +80,12 @@ int main()
     }
     return 0;
 }
+=======
+    setlocale(LC_ALL, ".UTF-8");
+    cout << "Лабораторная работа №8. GIT\n";
+    cout << "Вариант №2. Программа конференции\n";
+    cout << "Автор: Дмитрий Сафроненко\n";
+    cout << "Группа: 26ПИнж1д\n";
+    return 0;
+}
+>>>>>>> data
