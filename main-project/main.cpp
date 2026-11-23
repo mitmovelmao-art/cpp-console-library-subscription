@@ -1,17 +1,19 @@
 #include <iostream>
+#include <windows.h>
 
 using namespace std;
 
 #include "conference_program.h"
-#include "constants.h"
 #include "file_reader.h"
+#include "constants.h"
 
 int main()
 {
-    setlocale(LC_ALL, ".UTF8");
+    SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
     cout << "Лабораторная работа №8. GIT\n";
     cout << "Вариант №2. Программа конференции\n";
-    cout << "Автор: Дмитрий Сафроненко\n\n";
+    cout << "Автор: Сафроненко Дмитрий\n\n";
     Report* reports[MAX_FILE_ROWS_COUNT];
     int size;
     try

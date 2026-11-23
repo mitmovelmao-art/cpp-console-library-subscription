@@ -6,3 +6,4 @@
 void read(const char* file_name, Report* array[], int& size);
 
 #endif
+
